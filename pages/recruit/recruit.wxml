@@ -1,0 +1,139 @@
+<view class='container recrult-wrapper'>
+  <!-- 基本信息 -->
+  <view class='title-gray'>基本信息</view>
+  <view class='block-padLeft bg-white'>
+    <view class='flex-line border-b'>
+      <view class="name">单位名称</view>
+      <view class="value">
+        <input class='people-num' placeholder="请填写单位名称"/>
+      </view>
+    </view>
+    <view class='flex-line border-b'>
+      <view class="name">联系人</view>
+      <view class="value">
+        <input class='people-num' placeholder="请填写联系人"/>
+      </view>
+    </view>
+    <view class='flex-line border-b'>
+      <view class="name">联系电话</view>
+      <view class="value">
+        <input class='people-num' placeholder="请填写联系电话"/>
+      </view>
+    </view>
+    <view class='flex-line border-b'>
+      <view class="name">工作所在地</view>
+      <view class="value">
+        <input class='people-num' placeholder="请填写工作所在地"/>
+      </view>
+    </view>
+    <view class='flex-line border-b'>
+      <view class="name">单位规模</view>
+      <view class="value">
+        <input class='people-num' placeholder="请填写单位规模"/>
+      </view>
+    </view>
+  </view>
+  <!-- 岗位、人数、概况 -->
+  <view class='title-gray'>岗位、人数、概况</view>
+  <view class='block-padLeft bg-white'>
+    <view class='flex-line border-b'>
+      <view class="name">岗位名称</view>
+      <view class="value">
+        <input class='people-num' placeholder="请填写岗位名称"/>
+      </view>
+    </view>
+    <view class='flex-line border-b'>
+      <view class="name">需要人数</view>
+      <view class="value">
+        <input class='people-num' placeholder="请填写需要人数"/>
+      </view>
+    </view>
+    <view class='line-box'>
+      <view class='name'>岗位要求</view>
+      <view class='flex-box flex-4 block-padRight'>
+        <view class='list active'><view class='text'>室内</view></view>
+        <view class='list'><view class='text'>室外</view></view>
+        <view class='list'><view class='text'>常坐</view></view>
+        <view class='list'><view class='text'>常站</view></view>
+      </view>
+    </view>
+  </view>
+  <!-- 其他信息 -->
+  <view class='title-gray'>其他信息</view>
+  <view class='block-padLeft bg-white'>
+    <view class='line-box'>
+      <view class='name'>工作时间</view>
+      <view class='flex-box flex-3 block-padRight'>
+        <view class='list active'><view class='text'>白班</view></view>
+        <view class='list'><view class='text'>夜班</view></view>
+        <view class='list'><view class='text'>轮班</view></view>
+      </view>
+    </view>
+    <view class='line-box'>
+      <view class='name'>人员性别</view>
+      <view class='flex-box flex-3 block-padRight'>
+        <view class='list active'><view class='text'>女</view></view>
+        <view class='list'><view class='text'>男</view></view>
+        <view class='list'><view class='text'>不限</view></view>
+      </view>
+    </view>
+    <view class='line-box'>
+      <view class='name'>福利</view>
+      <view class='flex-box flex-3 block-padRight'>
+        <view class='list active'><view class='text'>包吃</view></view>
+        <view class='list'><view class='text'>包住</view></view>
+        <view class='list'><view class='text'>包吃包住</view></view>
+      </view>
+    </view>
+    <view class='line-box'>
+      <view class='name'>补充次数</view>
+      <view class='flex-box flex-3 block-padRight'>
+        <view class='list active'><view class='text'>1次</view></view>
+        <view class='list'><view class='text'>2次</view></view>
+        <view class='list'><view class='text'>3次</view></view>
+      </view>
+    </view>
+    <view class='line-box'>
+      <view class='name'>人员来源</view>
+      <view class='flex-box flex-3 block-padRight'>
+        <view class='list active'><view class='text'>异地直送</view></view>
+        <view class='list'><view class='text'>当地直面</view></view>
+        <view class='list'><view class='text'>异地直面</view></view>
+      </view>
+    </view>
+    <view class='line-box'>
+      <view class='name'>收费节点</view>
+      <view class='flex-box flex-3 block-padRight'>
+        <view class='list active'><view class='text'>面试</view></view>
+        <view class='list'><view class='text'>入职满1周</view></view>
+        <view class='list'><view class='text'>入职满2周</view></view>
+        <view class='list'><view class='text'>入职满1月</view></view>
+      </view>
+    </view>
+    <view class='line-box'>
+      <view class='name'>交付期-第一批交付</view>
+      <view class='flex-box flex-3 block-padRight'>
+        <view class='list active'><view class='text'>2周后</view></view>
+        <view class='list'><view class='text'>3周后</view></view>
+        <view class='list'><view class='text'>4周后</view></view>
+      </view>
+    </view>
+    <view class='line-box'>
+      <view class='name'>交付期-总交付</view>
+      <view class='flex-box flex-3 block-padRight'>
+        <view class='list active'><view class='text'>2-4周</view></view>
+        <view class='list'><view class='text'>2-6周</view></view>
+        <view class='list'><view class='text'>2-8周</view></view>
+      </view>
+    </view>
+  </view>
+  <view class='block-padLeft bg-white remarks-wrapper'>
+    <view class='line-box'>
+      <view class='name'>备注</view>
+      <view class="block-padRight">
+        <textarea placeholder="请填写申请理由..." class='remarks-textarea' />
+      </view>
+    </view>
+  </view>
+  <view class='submit-btn'>确认</view>
+</view>

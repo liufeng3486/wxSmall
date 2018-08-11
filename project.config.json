@@ -9,7 +9,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "1.9.93",
-	"appid": "wxa5b486c6b918ecfb",
+	"appid": "wx748803d062128fa1",
 	"projectname": "litemall-wx",
 	"condition": {
 		"search": {
@@ -28,7 +28,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 32,
+			"current": 33,
 			"list": [
 				{
 					"id": -1,
@@ -225,7 +225,13 @@
 				{
 					"id": -1,
 					"name": "测试更新",
-					"pathName": "pages/index/index"
+					"pathName": "pages/index/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "招聘",
+					"pathName": "pages/recruit/recruit"
 				}
 			]
 		}
